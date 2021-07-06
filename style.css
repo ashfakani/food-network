@@ -1,10 +1,13 @@
+body{
+    margin: 0;
+}
 section{
     display: flex;
     align-items: center;
 }
 .banner{
     display: flex;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 h1{
     font-size: 55px;
@@ -61,8 +64,9 @@ section .half-width p{
 }
 .div-one p{
     font-size: 18px;
-    font-weight: 400;
-    color: #828282;
+    font-weight: 800;
+    color: #5c4a4a;
+    font-family: 'Lato', sans-serif;
 }
 
 .projects{
@@ -74,7 +78,7 @@ section .half-width p{
     box-shadow: 0px 0px 30px -3px #52575D;
     border-radius: 20px;
     width: 377px;
-    height: 528px;
+    height: 480px;
     margin-left: 50px;
     background-image: linear-gradient(to bottom, #fdfa38 , #fbf983);
 }
@@ -115,6 +119,10 @@ section .half-width p{
     text-align: justify;
     color: rgb(84, 168, 189);
 }
+.project-div h2:hover{
+    background-color: rgb(240, 238, 235);
+    color: #958beb;
+}
 
 .popularity{
     justify-content: center;
@@ -127,28 +135,64 @@ section .half-width p{
     width: 1297px;
     height: 210px;
     border-radius: 20px;
-    box-shadow: 0px 0px 30px -3px #52575D;
-    background-image: linear-gradient(to right, #1fa4fd , #63ccfd);
+    box-shadow: 0px 0px 30px -3px #869ebb;
+    background-image: linear-gradient(to right, #4548fd , #5b8cfd);
 }
 
 .popularity .container div{
     height: 226px;
     padding-left: 210px;
-    color: white;
+    color: rgb(245, 230, 26);
 }
 
-.popularity .container .div-7{
+.popularity .container .div-three{
     padding-left: 0px;
 }
 
 .popularity .container div h2{
-    padding-top: 20px;
     font-size: 48px;
     font-weight: 700;
+    font-family: 'Lato', sans-serif;
 }
 
-.info .container div p{
+.popularity .container div p{
     margin-top: -25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    height: 260px;
+    background-color: #2b3c90;
+    margin: 0;
+
+}
+
+footer div{
+    width: 100%;
+}
+footer div a{
+    text-decoration: none;
+}
+
+footer div h2{
+    padding-top: 20px;
+ 
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+
+}
+
+footer div p{
+    padding-top: 10pxpx;
+    color: rgb(245, 228, 228);
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
 }
