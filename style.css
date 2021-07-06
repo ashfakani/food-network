@@ -1,0 +1,41 @@
+section{
+    display: flex;
+    align-items: center;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.banner{
+    display: flex;
+    margin-bottom: 100px;
+}
+h1{
+    font-size: 55px;
+}
+.orange-color{
+    color: orange;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+section .half-width p{
+    font-size: 30px;
+    font-weight: 500;
+    color: #242121;
+    line-height: 40px;
+    padding-bottom: 45px;
+
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 25px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-left: 39px;
+    border-radius: 20px;
+}
