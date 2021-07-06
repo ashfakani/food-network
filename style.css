@@ -1,13 +1,10 @@
 section{
     display: flex;
     align-items: center;
-    background-image: url(images/shapes/7.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
 }
 .banner{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 15px;
 }
 h1{
     font-size: 55px;
@@ -38,4 +35,19 @@ section .half-width p{
     letter-spacing: 1.5px;
     margin-left: 39px;
     border-radius: 20px;
+}
+.about-me{
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    width: auto;
+    background-size: 100%;
+}
+
+.about-me .myself{
+        width: 50%;
+        padding-right: 300px;      
+} 
+.about-me .myself p{
+    text-align: justify;
 }
